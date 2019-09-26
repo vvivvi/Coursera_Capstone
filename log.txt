@@ -1,0 +1,34 @@
+19.9.
+
+Valitaan tarkasteltavat alueet tiedon keräystä varten.
+
+Valitaan Euroopan väkitiheyskarttaa katsellen
+keskuspaikat laajojen melko tiheän asutuksen alueiden keskeltä:
+yksi Englannista
+     keskuspaikaksi Oxford
+yksi Länsi-Saksasta
+     keskuspaikaksi Braunschweig
+yksi Pohjois-Italiasta
+     otetaan keskuspaikaksi Cremona
+
+Kokeillaan, paljonko näiden ympäristöstä löytyy
+paikkatietoa 3 km säteellä: -> samplescrape.ipynb
+
+
+Karkea arvio tarvittavasta näytteiden määrästä:
+
+Jos SOM on kokoa 10x10, tarvitaan sen opettamiseen karkeasti
+100 x 10=1000 naapurustoa
+
+Ihan järkevä naapuruston koko olisi 100 näytettä
+
+Tällöin tarvitaan 100000 paikkatietoa, eli n. 33000/näytealue
+
+3 km säteellä saadaan Oxfordista vajaat 3800. Voitaisiin kasvattaa säde
+kolminkertaiseksi eli 9 kilometriin, jolloin saataisiin arviolta
+34000 paikkatietoa
+
+
+
+
+
